@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T15:28:30.997Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="AIfxT1Gru9Ga9_9pYKoS" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-23T15:32:50.308Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="qhDetgOWQVrixL2bIckD" version="14.8.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="943" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bz05cwxERFiWOEB9gzuM-3" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="bz05cwxERFiWOEB9gzuM-3" value="Branch Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="80" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bz05cwxERFiWOEB9gzuM-4" value="system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -69,22 +69,8 @@
             <mxPoint x="450" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bz05cwxERFiWOEB9gzuM-18" value="4: Request form()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="325" y="320" width="105" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="bz05cwxERFiWOEB9gzuM-19" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="340" as="sourcePoint" />
-            <mxPoint x="490" y="420" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="550" y="340" />
-              <mxPoint x="550" y="380" />
-              <mxPoint x="550" y="420" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bz05cwxERFiWOEB9gzuM-20" value="5:&amp;nbsp; Create Form()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="370" width="100" height="20" as="geometry" />
+        <mxCell id="bz05cwxERFiWOEB9gzuM-18" value="4: Request Reservation List()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bz05cwxERFiWOEB9gzuM-21" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -92,34 +78,34 @@
             <mxPoint x="450" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bz05cwxERFiWOEB9gzuM-22" value="6: Submit Details()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="325" y="430" width="105" height="20" as="geometry" />
+        <mxCell id="bz05cwxERFiWOEB9gzuM-22" value="6: Update Status()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="430" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bz05cwxERFiWOEB9gzuM-23" value="7: Create Reservation()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="557.5" y="480" width="132.5" height="20" as="geometry" />
+        <mxCell id="bz05cwxERFiWOEB9gzuM-29" value="" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455.5" y="400" as="sourcePoint" />
+            <mxPoint x="255.5" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="bz05cwxERFiWOEB9gzuM-24" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="bz05cwxERFiWOEB9gzuM-30" value="5: Reservation List()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="297.25" y="380" width="145.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bz05cwxERFiWOEB9gzuM-31" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="170" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="bz05cwxERFiWOEB9gzuM-35" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="450" as="sourcePoint" />
             <mxPoint x="490" y="530" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="550" y="450" />
-              <mxPoint x="550" y="490" />
-              <mxPoint x="550" y="530" />
+              <mxPoint x="560" y="450" />
+              <mxPoint x="560" y="490" />
+              <mxPoint x="560" y="530" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bz05cwxERFiWOEB9gzuM-29" value="" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="530" as="sourcePoint" />
-            <mxPoint x="250" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bz05cwxERFiWOEB9gzuM-30" value="10: Reservation&amp;nbsp;Code()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="510" width="145.5" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="bz05cwxERFiWOEB9gzuM-31" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="170" width="10" height="450" as="geometry" />
+        <mxCell id="bz05cwxERFiWOEB9gzuM-36" value="2: Update balance()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="490" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
